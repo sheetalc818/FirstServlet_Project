@@ -28,7 +28,7 @@ public class LoginServlet extends HttpServlet {
         RequestDispatcher rd = null;
 
         Pattern userPattern = Pattern.compile("^[A-Z]{1}[a-z]{2,}");
-        Pattern passwordPattern=Pattern.compile("^[A-Z][a-z0-9]{7,}$");
+        Pattern passwordPattern = Pattern.compile("^[A-Z][a-z0-9]{7,}$");
 
         //get Request Parameter for userID and Password
         String user = request.getParameter("user");
@@ -41,24 +41,20 @@ public class LoginServlet extends HttpServlet {
         String userID = getServletConfig().getInitParameter("user");
         String password = getServletConfig().getInitParameter("password");
 
-        if (userRegEx.matches() && passwordRegEx.matches())
-        {
-            if (userID.equals(user) && password.equals(pwd))
-            {
+        if (userRegEx.matches() && passwordRegEx.matches()) {
+            if (userID.equals(user) && password.equals(pwd)) {
                 request.setAttribute("user", user);
                 request.getRequestDispatcher("LoginSuccess.jsp").forward(request, response);
-            }
-            else {
+            } else {
                 rd = getServletContext().getRequestDispatcher("/login.html");
                 out.println("<font color=red>Either user name or password is wrong.</font>");
                 rd.include(request, response);
             }
-        }else {
-            if (!userRegEx.matches()){
+        } else {
+            if (!userRegEx.matches()) {
                 rd = getServletContext().getRequestDispatcher("/login.html");
                 out.println("<font color=red>Enter Username having min length 3 and Starts with Capital letter</font>");
-            }
-            else if (!passwordRegEx.matches()){
+            } else if (!passwordRegEx.matches()) {
                 rd = getServletContext().getRequestDispatcher("/login.html");
                 out.println("<font color=red>Enter Password having min length 8 with at least one Upper letter and Number</font>");
             }
