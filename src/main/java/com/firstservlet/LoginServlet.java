@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 
 @WebServlet(
         description = "Login to Servlet",
-        urlPatterns = {"/loginServlet"},
+        urlPatterns = {"/LoginServlet"},
         initParams = {
                 @WebInitParam(name = "user", value = "Sheetal"),
                 @WebInitParam(name = "password", value = "Bridgelabz")

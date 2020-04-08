@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74f718bf-190f-4cba-83d9-de9a49040cce" name="Default Changelist" comment="" />
+    <list default="true" id="74f718bf-190f-4cba-83d9-de9a49040cce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/firstservlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstservlet/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/firstservlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/firstservlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MyServelet.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/MyServelet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MyServelet/LoginSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/MyServelet/LoginSuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MyServelet/WEB-INF/classes/com/firstservlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/MyServelet/WEB-INF/classes/com/firstservlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/firstservlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/firstservlet/LoginServlet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -36,6 +48,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aD54N6IYRgowubuSlMQdkvIU4m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -215,7 +229,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -235,7 +249,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586257131295</updated>
       <workItem from="1586257136660" duration="10889000" />
-      <workItem from="1586326838092" duration="8491000" />
+      <workItem from="1586326838092" duration="9045000" />
     </task>
     <servers />
   </component>
@@ -263,54 +277,54 @@
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
     <state x="763" y="306" width="530" height="633" key="FileChooserDialogImpl/67.34.1853.1046@67.34.1853.1046" timestamp="1586329564940" />
-    <state width="1231" height="338" key="GridCell.Tab.0.bottom" timestamp="1586350562787">
+    <state width="1231" height="338" key="GridCell.Tab.0.bottom" timestamp="1586352700160">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562787" />
-    <state width="1231" height="338" key="GridCell.Tab.0.center" timestamp="1586350562786">
+    <state width="1231" height="338" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1586352700160" />
+    <state width="1231" height="338" key="GridCell.Tab.0.center" timestamp="1586352700157">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562786" />
-    <state width="1231" height="338" key="GridCell.Tab.0.left" timestamp="1586350562785">
+    <state width="1231" height="338" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1586352700157" />
+    <state width="1231" height="338" key="GridCell.Tab.0.left" timestamp="1586352700157">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562785" />
-    <state width="1231" height="338" key="GridCell.Tab.0.right" timestamp="1586350562787">
+    <state width="1231" height="338" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1586352700157" />
+    <state width="1231" height="338" key="GridCell.Tab.0.right" timestamp="1586352700158">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562787" />
-    <state width="1231" height="338" key="GridCell.Tab.1.bottom" timestamp="1586350562790">
+    <state width="1231" height="338" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1586352700158" />
+    <state width="1231" height="338" key="GridCell.Tab.1.bottom" timestamp="1586352699750">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.1.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562790" />
-    <state width="1231" height="338" key="GridCell.Tab.1.center" timestamp="1586350562789">
+    <state width="1231" height="338" key="GridCell.Tab.1.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699750" />
+    <state width="1231" height="338" key="GridCell.Tab.1.center" timestamp="1586352699749">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.1.center/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562789" />
-    <state width="1231" height="338" key="GridCell.Tab.1.left" timestamp="1586350562788">
+    <state width="1231" height="338" key="GridCell.Tab.1.center/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699749" />
+    <state width="1231" height="338" key="GridCell.Tab.1.left" timestamp="1586352699749">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.1.left/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562788" />
-    <state width="1231" height="338" key="GridCell.Tab.1.right" timestamp="1586350562789">
+    <state width="1231" height="338" key="GridCell.Tab.1.left/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699749" />
+    <state width="1231" height="338" key="GridCell.Tab.1.right" timestamp="1586352699750">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.1.right/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562789" />
-    <state width="1231" height="338" key="GridCell.Tab.2.bottom" timestamp="1586350562793">
+    <state width="1231" height="338" key="GridCell.Tab.1.right/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699750" />
+    <state width="1231" height="338" key="GridCell.Tab.2.bottom" timestamp="1586352699752">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.2.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562793" />
-    <state width="1231" height="338" key="GridCell.Tab.2.center" timestamp="1586350562791">
+    <state width="1231" height="338" key="GridCell.Tab.2.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699752" />
+    <state width="1231" height="338" key="GridCell.Tab.2.center" timestamp="1586352699751">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.2.center/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562791" />
-    <state width="1231" height="338" key="GridCell.Tab.2.left" timestamp="1586350562791">
+    <state width="1231" height="338" key="GridCell.Tab.2.center/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699751" />
+    <state width="1231" height="338" key="GridCell.Tab.2.left" timestamp="1586352699751">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.2.left/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562791" />
-    <state width="1231" height="338" key="GridCell.Tab.2.right" timestamp="1586350562792">
+    <state width="1231" height="338" key="GridCell.Tab.2.left/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699751" />
+    <state width="1231" height="338" key="GridCell.Tab.2.right" timestamp="1586352699751">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1231" height="338" key="GridCell.Tab.2.right/67.34.1853.1046@67.34.1853.1046" timestamp="1586350562792" />
+    <state width="1231" height="338" key="GridCell.Tab.2.right/67.34.1853.1046@67.34.1853.1046" timestamp="1586352699751" />
     <state x="573" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586327334180">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
