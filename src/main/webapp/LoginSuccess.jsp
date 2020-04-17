@@ -13,7 +13,7 @@
 </head>
 <center>
 <body>
-<h1> Hi <%request.getAttribute("user");%>,Login Successful.</h1>
+<h1> Hi <%= request.getAttribute("user") %>,Login Successful.</h1>
 <a href="login.html">Login Page</a>
 </body>
 </center>

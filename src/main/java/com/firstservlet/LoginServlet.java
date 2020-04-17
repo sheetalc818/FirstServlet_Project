@@ -44,7 +44,8 @@ public class LoginServlet extends HttpServlet {
         if (userRegEx.matches() && passwordRegEx.matches()) {
             if (userID.equals(user) && password.equals(pwd)) {
                 request.setAttribute("user", user);
-                request.getRequestDispatcher("LoginSuccess.jsp").forward(request, response);
+                //request.getRequestDispatcher("LoginSuccess.jsp").forward(request, response);
+                response.sendRedirect("LoginSuccess.jsp");
             } else {
                 rd = getServletContext().getRequestDispatcher("/login.html");
                 out.println("<font color=red>Either user name or password is wrong.</font>");
